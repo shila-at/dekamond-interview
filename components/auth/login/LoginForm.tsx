@@ -56,7 +56,7 @@ export default function LoginForm() {
                             type="submit"
                             disabled={!!errors.phone || loading}
                             aria-busy={loading}
-                            className="w-full h-12h-12 text-lg font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 bg-emerald-500 hover:bg-emerald-600 text-white"
+                            className="w-full h-12 text-lg font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 bg-emerald-500 hover:bg-emerald-600 text-white"
                         >
                             {loading ? (
                                 <LoaderCircle className="h-6 w-6 animate-spin" />
